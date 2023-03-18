@@ -1,0 +1,76 @@
+* {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+body {
+    background-color: rgb(32,33,36);
+    margin: 0;
+    padding: 0;
+}
+
+#lang-text {
+    color: white;
+}
+
+#stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+img {
+    max-width: 210px;
+}
+
+#search-bar {
+    width: 480px;
+    height: 35px;
+    background-color: rgb(32,33,36);
+    border-radius: 20px;
+    border: 1px solid rgb(115, 120, 126);
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#bt1, #bt2 {
+    font-size: 12px;
+    padding: 6px 13px;
+    color: white;
+    background-color: rgb(48,49,52);
+    border: none;
+    border-radius: 3px;
+}
+
+#lang-text {
+    font-size: 10px;
+    display: flex;
+    gap: 6px;
+}
+
+#lang-text a {
+    color: rgb(111,153,214);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
