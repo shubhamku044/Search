@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+}
+
+#img-search-bar {
+    width: 55vw;
+    max-width: 550px;
+    border-radius: 30px;
+    height: 45px;
+    padding-left: 20px;
+    border-top: 1px solid#e1e1e1;
+    border-bottom: 1px solide1e1e1;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+#img-search-bar:hover {
+    border-bottom: 2px solid rgb(223, 223, 223);
+    border-top: 1px solid white;
+}
+
+#img-search-bar:focus{
+    outline:none;
+    border-top: 1px solid white;
+    border-bottom: 2px solid rgb(223, 223, 223);
+}
+
+.country, .footerStuffs {
+    background-color: #ffffff;
+    color: #767b80;
+}

@@ -1,74 +1,125 @@
 * {
     font-family: 'Didact Gothic', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     background-color: rgb(32,33,36);
+    /* background-color: white; */
     margin: 0;
     padding: 0;
-}
-
-#lang-text {
-    color: white;
+    
 }
 
 #stuff {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 25px;
     align-items: center;
+    gap: 25px;
     height: 100vh;
-    width: 100vw;
-}
-
-img {
-    max-width: 210px;
-}
-
-#search-bar {
-    width: 480px;
-    height: 35px;
-    background-color: rgb(32,33,36);
-    border-radius: 20px;
-    border: 1px solid rgb(115, 120, 126);
-}
-
-.buttons {
-    display: flex;
-    gap: 10px;
-}
-
-#bt1, #bt2 {
-    font-size: 12px;
-    padding: 6px 13px;
-    color: white;
-    background-color: rgb(48,49,52);
-    border: none;
-    border-radius: 3px;
-}
-
-#lang-text {
-    font-size: 10px;
-    display: flex;
-    gap: 6px;
-}
-
-#lang-text a {
-    color: rgb(111,153,214);
-    text-decoration: none;
 }
 
 header {
     display: flex;
-    justify-content: right;
     gap: 20px;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 15px;
 }
 
-header a {
+img {
+    max-width: 290px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button {
     color: white;
+    background-color: #303134;
+    border: 1px solid #303134;
+    padding-inline: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+}
+
+button:hover {
+    border: 1px solid #5f6368;
+}
+
+#search-bar {
+    width: 55vw;
+    max-width: 550px;
+    border-radius: 30px;
+    height: 45px;
+    background-color: #202124;
+    border: 1px solid #5f6368;
+    padding-left: 20px;
+    color: white;
+}
+
+header a{
     text-decoration: none;
-    font-size: 10px;
+    color: white;
+}
+
+#search-bar:focus{
+    outline:none;
+    background-color: #3b3c3d;
+}
+
+#search-bar:hover {
+    background-color: #3b3c3d;
+    border-color:  #3b3c3d;;
+}
+
+#lang-text {
+    display: flex;
+    gap: 8px;
+    color: white;
+}
+
+#lang-text a{
+    color: #7ca1dd;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    color: #9aa0a6;
+    justify-content: flex-end;
+}
+
+.country {
+    background-color: #171717;
+}
+
+.countryName {
+    padding-left: 26px;
+    padding-top: 8px;
+}
+
+hr {
+    border: 1px solid #686f72;
+}
+
+.footerStuffs {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #171717;
+    justify-content: space-between;
+}
+
+.left, .right {
+    display: flex;
+    gap: 30px;
 }
 
 a:hover {
